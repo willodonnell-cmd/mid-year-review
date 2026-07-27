@@ -1,0 +1,1053 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "fileName": "Full Report Draft.docx",
+    "sha256": "5ba702f651c954f596c7744b22235369b4881ba70d6b585583bb48240a18ad1e",
+    "extractionMethod": "macOS textutil -convert txt -stdout, normalized to LF line endings and no terminal newline",
+    "canonicalTextSha256": "cad0ebe2275107645256feb8979f81a4be718cec40a169240cf0a273fda22f18"
+  },
+  "hyperlinks": [
+    {
+      "displayText": "here.",
+      "target": "https://prologis.box.com/s/hlyiswwy8ncityn5p7g19fgkh9oyvz68",
+      "status": "ready"
+    },
+    {
+      "displayText": "Walden Investment Article URL",
+      "target": "https://www.dcvelocity.com/material-handling/robotics/walden-robotics-launches-humanoid-robots-for-manufacturing-and-logistics",
+      "status": "ready"
+    },
+    {
+      "displayText": "PLDV Invests in TMV WSJ Article URL",
+      "target": "https://www.wsj.com/logistics-report/venture-fund-launches-200-million-bet-on-u-s-maritime-revival-640f94a4",
+      "status": "ready"
+    }
+  ],
+  "entries": [
+    {
+      "blockId": "SRC-001",
+      "sourceOrder": 1,
+      "intendedWebsiteSection": "Executive Summary",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "Prologis Ventures "
+    },
+    {
+      "blockId": "SRC-002",
+      "sourceOrder": 2,
+      "intendedWebsiteSection": "Executive Summary",
+      "presentationType": "report_title",
+      "status": "ready",
+      "exactSourceText": "Mid Year Report – H1 2026"
+    },
+    {
+      "blockId": "SRC-003",
+      "sourceOrder": 3,
+      "intendedWebsiteSection": "Executive Summary",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "Prologis Ventures is pleased to present our 2026 Mid-Year Update Report, spotlighting the investment returns and strategic value across the enterprise in the first half of the year."
+    },
+    {
+      "blockId": "SRC-004",
+      "sourceOrder": 4,
+      "intendedWebsiteSection": "Executive Summary",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "We had a strong start to the year, investing in companies that support our position across supply chain, development, and energy, including Unit AI, Walden Robotics,  Paebbl, and Anori (funded this year following spin out). We also expanded our fund strategy to strengthen our network in maritime through TMV Logistics’, expanded our pipeline of early-stage European deals through Rethink Ventures, and doubled down on Schematic Ventures with an investment in their third fund. Excitingly, several portfolio companies are advancing toward potential liquidity events, positioning our portfolio for the strongest exit environment in several years."
+    },
+    {
+      "blockId": "SRC-005",
+      "sourceOrder": 5,
+      "intendedWebsiteSection": "Executive Summary",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "Our investment in Fulfillment IQ at the start of the year has been one of our most strategic yet, deepening the partnership with Essentials and strengthening Prologis’ relationship with enterprise customers like OFI and Albertsons, both with near term opportunities on the horizon. With FiQ, we also strengthened our business-building capabilities with the launch of CrossDock Studios, establishing a repeatable approach for transforming customer pain points into software products and venture-backed companies. The studio is advancing Workbench, a simulation engine for warehouse operations, WareSight, an Ai-audit tool for Operating Essentials to streamline consulting, and Zynque, and integration and orchestration platform. "
+    },
+    {
+      "blockId": "SRC-006",
+      "sourceOrder": 6,
+      "intendedWebsiteSection": "Executive Summary",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "Beyond investing, Ventures helped business units evaluate, adopt, and commercialize technologies that support future growth. Anori officially spun out of Google X’s Moonshot division and has begun development work with Prologis teams to streamline development and entitlement workflows. We also worked closely with our data center team to complete an LOI with portfolio company XNERGY (roughly 2 GW of potential projects where XNRGY could be leveraged to ensure Prologis retains access to mission-critical cooling infrastructure, one of the largest constraints facing hyperscale development. "
+    },
+    {
+      "blockId": "SRC-007",
+      "sourceOrder": 7,
+      "intendedWebsiteSection": "Executive Summary",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "Customer engagement also expanded significantly through PrologisNext, where we have engaged 308 executives representing 50 strategic customer organizations, creating new relationships with supply chain, technology, and innovation leaders who influence operational decisions and spend and helping us get earlier insights around their technology and AI strategies. We are already seeing outcomes from these engagements in the form of multiple build-to-suit opportunities and follow up discussions with Essentials and Ventures portfolio companies, including DHL who recently signed an LOI with Gideon for 70+ units. "
+    },
+    {
+      "blockId": "SRC-008",
+      "sourceOrder": 8,
+      "intendedWebsiteSection": "Executive Summary",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "Finally, we continued building the systems needed to scale innovation across the enterprise with the launch of the Innovation Accelerator, which is both supporting the wider enterprise AI initiative and helping teams evaluate where to invest resources, connect related efforts across the company, and create repeatable pathways for moving validated opportunities into execution."
+    },
+    {
+      "blockId": "SRC-009",
+      "sourceOrder": 9,
+      "intendedWebsiteSection": "Executive Summary",
+      "presentationType": "source_placeholder",
+      "status": "missing_asset",
+      "exactSourceText": "Dashboard (Insert Rajeev Codex Site)"
+    },
+    {
+      "blockId": "SRC-010",
+      "sourceOrder": 10,
+      "intendedWebsiteSection": "Executive Summary",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\t$332M invested since 2016 "
+    },
+    {
+      "blockId": "SRC-011",
+      "sourceOrder": 11,
+      "intendedWebsiteSection": "Executive Summary",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\t$474M current portfolio value"
+    },
+    {
+      "blockId": "SRC-012",
+      "sourceOrder": 12,
+      "intendedWebsiteSection": "Executive Summary",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\t1.43x MOIC "
+    },
+    {
+      "blockId": "SRC-013",
+      "sourceOrder": 13,
+      "intendedWebsiteSection": "Executive Summary",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\t9.1%+ IRR "
+    },
+    {
+      "blockId": "SRC-014",
+      "sourceOrder": 14,
+      "intendedWebsiteSection": "Executive Summary",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\t2026 Investments (logos): "
+    },
+    {
+      "blockId": "SRC-015",
+      "sourceOrder": 15,
+      "intendedWebsiteSection": "Executive Summary",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\t5 New: FIQ, Paebbl, Walden, Unit AI, Anori"
+    },
+    {
+      "blockId": "SRC-016",
+      "sourceOrder": 16,
+      "intendedWebsiteSection": "Executive Summary",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\t1 Follow-On: Gideon "
+    },
+    {
+      "blockId": "SRC-017",
+      "sourceOrder": 17,
+      "intendedWebsiteSection": "Executive Summary",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\t3 Funds: TMV, Rethink, Schematic"
+    },
+    {
+      "blockId": "SRC-018",
+      "sourceOrder": 18,
+      "intendedWebsiteSection": "Executive Summary",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\tStrategic Value of Portfolio"
+    },
+    {
+      "blockId": "SRC-019",
+      "sourceOrder": 19,
+      "intendedWebsiteSection": "Executive Summary",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\t56 Total Investments"
+    },
+    {
+      "blockId": "SRC-020",
+      "sourceOrder": 20,
+      "intendedWebsiteSection": "Executive Summary",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\t33+ Serving PLD Customers"
+    },
+    {
+      "blockId": "SRC-021",
+      "sourceOrder": 21,
+      "intendedWebsiteSection": "Executive Summary",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\t24+ Serving PLD BU’s "
+    },
+    {
+      "blockId": "SRC-022",
+      "sourceOrder": 22,
+      "intendedWebsiteSection": "Executive Summary",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\t2 Idle/Stealth"
+    },
+    {
+      "blockId": "SRC-023",
+      "sourceOrder": 23,
+      "intendedWebsiteSection": "Executive Summary",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\t8 Portcos on Essentials Marketplace"
+    },
+    {
+      "blockId": "SRC-024",
+      "sourceOrder": 24,
+      "intendedWebsiteSection": "Executive Summary",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\t2 PLD Pilots Initiated with Portcos in 2026"
+    },
+    {
+      "blockId": "SRC-025",
+      "sourceOrder": 25,
+      "intendedWebsiteSection": "Executive Summary",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\t3 Portfolio Companies Leasing Space from Prologis"
+    },
+    {
+      "blockId": "SRC-026",
+      "sourceOrder": 26,
+      "intendedWebsiteSection": "Executive Summary",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\tMajor Highlights"
+    },
+    {
+      "blockId": "SRC-027",
+      "sourceOrder": 27,
+      "intendedWebsiteSection": "Executive Summary",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\t308 Customers Engaged by PrologisNext"
+    },
+    {
+      "blockId": "SRC-028",
+      "sourceOrder": 28,
+      "intendedWebsiteSection": "Executive Summary",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\tWorkstep acquired by Learningpool"
+    },
+    {
+      "blockId": "SRC-029",
+      "sourceOrder": 29,
+      "intendedWebsiteSection": "Executive Summary",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\t3 Incubations in CrossDock Studios "
+    },
+    {
+      "blockId": "SRC-030",
+      "sourceOrder": 30,
+      "intendedWebsiteSection": "Executive Summary",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\tWorkbench, Waresight, Zynque"
+    },
+    {
+      "blockId": "SRC-031",
+      "sourceOrder": 31,
+      "intendedWebsiteSection": "Executive Summary",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\t9 Customers Co-invested: Toyota, NVIDIA, Samsung, CoreWeave, Amazon, General Motors, Koch Industries, Microsoft, Saint-Gobain"
+    },
+    {
+      "blockId": "SRC-032",
+      "sourceOrder": 32,
+      "intendedWebsiteSection": "Executive Summary",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\t161 Ideas Shared Since Innovation Accelerator Launch"
+    },
+    {
+      "blockId": "SRC-033",
+      "sourceOrder": 33,
+      "intendedWebsiteSection": "Executive Summary",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\t"
+    },
+    {
+      "blockId": "SRC-034",
+      "sourceOrder": 34,
+      "intendedWebsiteSection": "Portfolio & Financial Performance",
+      "presentationType": "top_level_heading",
+      "status": "ready",
+      "exactSourceText": "Portfolio & Financial Performance"
+    },
+    {
+      "blockId": "SRC-035",
+      "sourceOrder": 35,
+      "intendedWebsiteSection": "Portfolio & Financial Performance",
+      "presentationType": "subsection_heading",
+      "status": "ready",
+      "exactSourceText": "Market Context and Strategic Positioning"
+    },
+    {
+      "blockId": "SRC-036",
+      "sourceOrder": 36,
+      "intendedWebsiteSection": "Portfolio & Financial Performance",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "Entering 2026, venture capital conditions are improving as expected. 2025 marked the second-strongest year on record for U.S. venture investment with $340B deployed. The pattern has continued into 2026, with global startup funding reaching a record $510B in the first half of the year, driven largely by AI and with OpenAI and Anthropic alone accounting for 43% of all startup funding. Although overall deal activity remains below peak levels, investors are showing renewed confidence in companies that can demonstrate durable growth, capital efficiency, and a clear path to profitability. "
+    },
+    {
+      "blockId": "SRC-037",
+      "sourceOrder": 37,
+      "intendedWebsiteSection": "Portfolio & Financial Performance",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "The clearest sign that market conditions are improving is the reopening of the liquidity window after several years of limited exits. Venture-backed IPO activity accelerated through the end of 2025 and into 2026, highlighted by public offerings from Figma, CoreWeave, Chime, and BETA Technologies, while strategic M&A returned at scale. This March, Google completed its $32B acquisition of Wiz, the largest acquisition of a venture-backed cybersecurity company, and Google's largest acquisition to date. We are seeing renewed confidence from both public investors and corporate development buyers and liquidity pathways for mature venture-backed companies. While the market remains selective, high-quality businesses are once again finding viable exit opportunities through both public and private markets. "
+    },
+    {
+      "blockId": "SRC-038",
+      "sourceOrder": 38,
+      "intendedWebsiteSection": "Portfolio & Financial Performance",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "That improving backdrop is increasingly being reflected directly in the Prologis Ventures portfolio, with several active exit or liquidity paths underway across our most strategic companies. We expect to see several potential exits over the next six to twelve months that will drive returns for Prologis in a significant way. Read more details on anticipated outcomes below. While outcomes will remain company specific, the broader venture environment is more favorable than it has been at any point since 2021, creating increased opportunities to generate returns over the next six to twelve months."
+    },
+    {
+      "blockId": "SRC-039",
+      "sourceOrder": 39,
+      "intendedWebsiteSection": "Portfolio & Financial Performance",
+      "presentationType": "top_level_heading",
+      "status": "ready",
+      "exactSourceText": "Portfolio & Financial Performance"
+    },
+    {
+      "blockId": "SRC-040",
+      "sourceOrder": 40,
+      "intendedWebsiteSection": "Portfolio & Financial Performance",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "During the first half of 2026, we have invested $24.64M, comprised of five new investments (FiQ, Unit AI, Walden Robotics, Paebbl, Anori), one follow-on investment (Gideon), three fund investments (TMV Logistics, Rethink Ventures, and Schematic Ventures Fund III). We have 42 active companies, 2 inactive, 5 fund positions, 7 RIPs, and 5 exits with Workstep bring acquired by LearningPool in Q1. "
+    },
+    {
+      "blockId": "SRC-041",
+      "sourceOrder": 41,
+      "intendedWebsiteSection": "Portfolio & Financial Performance",
+      "presentationType": "table_label",
+      "status": "ready",
+      "exactSourceText": "Table 1: Investments by Year (Inclusive of Warrants, Excluding Fund Investments) "
+    },
+    {
+      "blockId": "SRC-042",
+      "sourceOrder": 42,
+      "intendedWebsiteSection": "Portfolio & Financial Performance",
+      "presentationType": "table_label",
+      "status": "ready",
+      "exactSourceText": "Table 2: Investments by Fund Vintage: Below is a table illustrating fund performance to-date. "
+    },
+    {
+      "blockId": "SRC-043",
+      "sourceOrder": 43,
+      "intendedWebsiteSection": "Portfolio & Financial Performance",
+      "presentationType": "subsection_heading",
+      "status": "ready",
+      "exactSourceText": "Fund Investments"
+    },
+    {
+      "blockId": "SRC-044",
+      "sourceOrder": 44,
+      "intendedWebsiteSection": "Portfolio & Financial Performance",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "Our fund strategy continues to expand Prologis Ventures' access to emerging technologies, strategic relationships, and differentiated deal flow beyond our core investment focus. During the first half of the year we approved commitments to three funds: TMV Logistics, which broadens our sourcing capabilities across maritime logistics, Rethink Ventures, which gives us earlier entry points into European supply chain innovation, and Schematic Ventures Fund III, which allows us to continue to get early insight into some of the best supply chain and automation companies exiting seed stage. TMV also expands Prologis' connectivity into maritime, ports, and intermodal logistics, sectors that influence a significant share of customer supply chains before freight reaches the Prologis network."
+    },
+    {
+      "blockId": "SRC-045",
+      "sourceOrder": 45,
+      "intendedWebsiteSection": "Portfolio & Financial Performance",
+      "presentationType": "subsection_heading",
+      "status": "ready",
+      "exactSourceText": "Exit Outlook"
+    },
+    {
+      "blockId": "SRC-046",
+      "sourceOrder": 46,
+      "intendedWebsiteSection": "Portfolio & Financial Performance",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "This section contains forward looking statements, as several portfolio companies are now in active liquidity processes with potential outcomes anticipated over the next six to twelve months, but of course not guaranteed. "
+    },
+    {
+      "blockId": "SRC-047",
+      "sourceOrder": 47,
+      "intendedWebsiteSection": "Portfolio & Financial Performance",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "Kolors and SVT Robotics are currently in market for sale, with strategic buyers actively evaluating the businesses (expected ~3x on Kolors, ~1.5x on SVT). Both companies have reached a level of commercial maturity that aligns with improving M&A activity across the venture market. "
+    },
+    {
+      "blockId": "SRC-048",
+      "sourceOrder": 48,
+      "intendedWebsiteSection": "Portfolio & Financial Performance",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "XNRGY continues to build momentum as demand for AI infrastructure and data center capacity accelerates. With our data center team, Prologis advanced a large LOI for HVAC-related equipment, validating the company's technology while strengthening its commercial position within one of Prologis' fastest-growing business lines. The company has received significant acquisition interest that we expect to see materialize later this year "
+    },
+    {
+      "blockId": "SRC-049",
+      "sourceOrder": 49,
+      "intendedWebsiteSection": "Portfolio & Financial Performance",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "Locus Robotics and Fort Robotics, two of our automation portfolio companies, have exits on the horizon. Locus Robotics is preparing for a potential IPO, while FORT Robotics continues advancing through its SPAC process. "
+    },
+    {
+      "blockId": "SRC-050",
+      "sourceOrder": 50,
+      "intendedWebsiteSection": "Portfolio & Financial Performance",
+      "presentationType": "source_placeholder",
+      "status": "approval_required",
+      "exactSourceText": "Top of Form"
+    },
+    {
+      "blockId": "SRC-051",
+      "sourceOrder": 51,
+      "intendedWebsiteSection": "Portfolio & Financial Performance",
+      "presentationType": "source_placeholder",
+      "status": "approval_required",
+      "exactSourceText": "Bottom of Form"
+    },
+    {
+      "blockId": "SRC-052",
+      "sourceOrder": 52,
+      "intendedWebsiteSection": "Portfolio & Financial Performance",
+      "presentationType": "subsection_heading",
+      "status": "ready",
+      "exactSourceText": "Portfolio Wins"
+    },
+    {
+      "blockId": "SRC-053",
+      "sourceOrder": 53,
+      "intendedWebsiteSection": "Portfolio & Financial Performance",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\tWorkStep was acquired by Learning Pool."
+    },
+    {
+      "blockId": "SRC-054",
+      "sourceOrder": 54,
+      "intendedWebsiteSection": "Portfolio & Financial Performance",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\tLocus Robotics launched its new autonomous robot, Array."
+    },
+    {
+      "blockId": "SRC-055",
+      "sourceOrder": 55,
+      "intendedWebsiteSection": "Portfolio & Financial Performance",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\tXNRGY inked LOI with Prologis, supporting approximately 2 GW of potential projects."
+    },
+    {
+      "blockId": "SRC-056",
+      "sourceOrder": 56,
+      "intendedWebsiteSection": "Portfolio & Financial Performance",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\tSOLARCYCLE and Prologis Energy announced exclusive recycling agreement. "
+    },
+    {
+      "blockId": "SRC-057",
+      "sourceOrder": 57,
+      "intendedWebsiteSection": "Portfolio & Financial Performance",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\tAnori completed spinout from Google X and recorded $1.8M in booked revenue from Google’s Data Center business. "
+    },
+    {
+      "blockId": "SRC-058",
+      "sourceOrder": 58,
+      "intendedWebsiteSection": "Portfolio & Financial Performance",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\tGideon expanded customer deployments with GM, FedEx, and DHL. "
+    },
+    {
+      "blockId": "SRC-059",
+      "sourceOrder": 59,
+      "intendedWebsiteSection": "Portfolio & Financial Performance",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\tFORT Robotics acquired Mapless AI and is preparing to go public via SPAC."
+    },
+    {
+      "blockId": "SRC-060",
+      "sourceOrder": 60,
+      "intendedWebsiteSection": "Portfolio & Financial Performance",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\tRelay received a term sheet valuing the business at $400M pre-money, a ~3.5x on our investments to-date, as well as signed another lease with Prologis. "
+    },
+    {
+      "blockId": "SRC-061",
+      "sourceOrder": 61,
+      "intendedWebsiteSection": "Business Unit Acceleration",
+      "presentationType": "top_level_heading",
+      "status": "ready",
+      "exactSourceText": "Business Unit Acceleration"
+    },
+    {
+      "blockId": "SRC-062",
+      "sourceOrder": 62,
+      "intendedWebsiteSection": "Business Unit Acceleration",
+      "presentationType": "subsection_heading",
+      "status": "ready",
+      "exactSourceText": "Operating Essentials"
+    },
+    {
+      "blockId": "SRC-063",
+      "sourceOrder": 63,
+      "intendedWebsiteSection": "Business Unit Acceleration",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "After investing in FulfillmentIQ (FIQ) in January, Prologis formalized a strategic partnership that combines FIQ's supply chain consulting, technology development, and automation expertise with Operating Essentials' scale and infrastructure capabilities. The partnership expands Prologis' ability to engage customers earlier in their supply chain transformation efforts by offering strategy, implementation, software development, and infrastructure through a single customer engagement model. "
+    },
+    {
+      "blockId": "SRC-064",
+      "sourceOrder": 64,
+      "intendedWebsiteSection": "Business Unit Acceleration",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "During the first half of the year, Prologis Ventures introduced Essentials to Albertsons, leading to discussions with CLD around a four-site cold chain build-to-suit opportunity, automation, yard operations, energy resilience, and network optimization. Albertsons expects to invest ~$4B in material handling and automation across 22 distribution centers over the next five years, creating opportunities that span real estate, Operating Essentials, Energy, and future technology solutions."
+    },
+    {
+      "blockId": "SRC-065",
+      "sourceOrder": 65,
+      "intendedWebsiteSection": "Business Unit Acceleration",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "Ventures is also expanding customer access to early warehouse automation. Ventures introduced customers to autonomous forklift technology through Gideon with Essentials establishing a referral relationship with Gideon. Unit AI has a growing pipeline of Prologis customers who want to participate in early deployments, demonstrating customer demand for return logistics solutions. Finally, our most recent investment in Walden Robotics will allow us to create a customer cohort to help shape the first logistics use cases of human-agentic technology based on shared warehouse pain points."
+    },
+    {
+      "blockId": "SRC-066",
+      "sourceOrder": 66,
+      "intendedWebsiteSection": "Business Unit Acceleration",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "Development "
+    },
+    {
+      "blockId": "SRC-067",
+      "sourceOrder": 67,
+      "intendedWebsiteSection": "Business Unit Acceleration",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "Our portfolio company Anori, an AI platform that streamlines development and entitlement workflows, completed its nine-month spinout from Google X at the start of the year. Since then, Ventures has led working sessions with Prologis Development, Capital Deployment, Government Affairs, and Data Centers to identify the highest-value development challenges for Anori to prioritize solving. The team has helped shape the platform around entitlement analysis, zoning and permitting workflows, site feasibility, regulatory review, community sentiment, and development planning. Anori has now developed its first product, and structured validation is now underway using 2-3 Prologis projects to measure speed, accuracy, completeness, actionability, and workflow fit before determining the first repeatable production workflow. The long-term objective is to improve entitlement preparedness, reduce manual research, strengthen underwriting assumptions, and fundamentally change how development teams evaluate and prioritize projects across the portfolio. "
+    },
+    {
+      "blockId": "SRC-068",
+      "sourceOrder": 68,
+      "intendedWebsiteSection": "Business Unit Acceleration",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "Additionally, Ventures continues working with Development and Prologis Labs/IT to identify where AI can create durable advantages across the development lifecycle. After evaluating more than 100 AI-native real estate companies, the team concluded that the greatest opportunity is not automating individual tasks, but building AI-enabled workflows that improve capital allocation, compress project timelines, strengthen underwriting, reduce entitlement and cost risk, and continuously improve decision-making across future developments. Current work includes a proof of concept with Ventures portfolio company Tangible as part of the Cost IQ initiative. The pilot will test whether AI can reduce by 50-90% the up to 40 hours development teams currently spend estimating construction material quantities, enabling faster project evaluation and more accurate early-stage cost forecasting."
+    },
+    {
+      "blockId": "SRC-069",
+      "sourceOrder": 69,
+      "intendedWebsiteSection": "Business Unit Acceleration",
+      "presentationType": "subsection_heading",
+      "status": "ready",
+      "exactSourceText": "Data Centers"
+    },
+    {
+      "blockId": "SRC-070",
+      "sourceOrder": 70,
+      "intendedWebsiteSection": "Business Unit Acceleration",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "Prologis’ relationship with Venture portfolio company, XNRGY, has progressed into a strategic operating partnership. Ventures worked with the Data Center team to execute a signed LOI that positions Prologis within XNRGY's production planning for approximately 2 GW of potential projects where XNRGY’s technology could be deployed. The partnership creates access to mission-critical cooling infrastructure at a time when manufacturing capacity has become one of the largest constraints facing hyperscale development. In parallel, Ventures continues to evaluate AI infrastructure and cooling technologies with the data center team, including SF Compute, Together AI, Electio, to name a few to better understand the data center transaction landscape and strengthen the long-term execution strategy of the Data Center platform. "
+    },
+    {
+      "blockId": "SRC-071",
+      "sourceOrder": 71,
+      "intendedWebsiteSection": "Business Unit Acceleration",
+      "presentationType": "subsection_heading",
+      "status": "ready",
+      "exactSourceText": "Energy & Sustainability"
+    },
+    {
+      "blockId": "SRC-072",
+      "sourceOrder": 72,
+      "intendedWebsiteSection": "Business Unit Acceleration",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "Prologis OnPrem Power delivers dispatchable on-site power that enables customers to bring facilities online faster. Over the last year, Ventures helped transition OnPrem from an incubation into an operating business by helping with commercial strategy, governance model, customer offering, and transaction framework. We also supported the Energy team’s first major commercial opportunity this year with Quanta, an engineering and infrastructure customer evaluating OnPrem as part of a large-scale power deployment. That work validated the commercial model and established underwriting processes. We continue to support this new business as it expands its commercial pipeline including Walmart, Amazon, and Prologis' Data Centers platform.  "
+    },
+    {
+      "blockId": "SRC-073",
+      "sourceOrder": 73,
+      "intendedWebsiteSection": "Business Unit Acceleration",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "With the Prologis Sustainability team, Ventures invested in Paebbl to expand access to low-carbon concrete technologies for future European developments. Already, Paebbl conducted a recent pour with Amazon where Paebbl was determined to have achieved better performance standards than the current preferred concrete provided. Our other sustainable concrete investment, TerraCO2, is progressing quickly on their manufacturing facility in Cleburne, TX and is exploring opportunities with the construction team to test at nearby warehouses once complete. Also, Ventures helped expand Prologis’ partnership with SOLARCYCLE at the start of the year by executing an exclusivity agreement for end-of-life solar panel recycling, strengthening both Prologis' and our customers’ circularity strategy. "
+    },
+    {
+      "blockId": "SRC-074",
+      "sourceOrder": 74,
+      "intendedWebsiteSection": "Customer Access & Commercial Impact",
+      "presentationType": "top_level_heading",
+      "status": "ready",
+      "exactSourceText": "Customer Access & Commercial Impact"
+    },
+    {
+      "blockId": "SRC-075",
+      "sourceOrder": 75,
+      "intendedWebsiteSection": "Customer Access & Commercial Impact",
+      "presentationType": "subsection_heading",
+      "status": "ready",
+      "exactSourceText": "DashBoard"
+    },
+    {
+      "blockId": "SRC-076",
+      "sourceOrder": 76,
+      "intendedWebsiteSection": "Customer Access & Commercial Impact",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\t308 executive participants "
+    },
+    {
+      "blockId": "SRC-077",
+      "sourceOrder": 77,
+      "intendedWebsiteSection": "Customer Access & Commercial Impact",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\t50+ strategic customer organizations engaged "
+    },
+    {
+      "blockId": "SRC-078",
+      "sourceOrder": 78,
+      "intendedWebsiteSection": "Customer Access & Commercial Impact",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\t73% of Dark Green CLS customers participated "
+    },
+    {
+      "blockId": "SRC-079",
+      "sourceOrder": 79,
+      "intendedWebsiteSection": "Customer Access & Commercial Impact",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\t14+ documented follow-up opportunities generated from the PrologisNext Innovators Summit "
+    },
+    {
+      "blockId": "SRC-080",
+      "sourceOrder": 80,
+      "intendedWebsiteSection": "Customer Access & Commercial Impact",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\tOrganizations Engaged Through PrologisNext YTD (logo graphic) Ashley Furniture • Averitt • Barrett Distribution Centers • DHL • DSV • GEODIS • Glossier • ID Logistics • IKEA • NFI • NVIDIA • PepsiCo • Ryder • WESCO • GXO • Chobani • Dell • Maersk "
+    },
+    {
+      "blockId": "SRC-081",
+      "sourceOrder": 81,
+      "intendedWebsiteSection": "Customer Access & Commercial Impact",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "PrologisNext "
+    },
+    {
+      "blockId": "SRC-082",
+      "sourceOrder": 82,
+      "intendedWebsiteSection": "Customer Access & Commercial Impact",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "Through the first half of the year, PrologisNext continued to engage senior supply chain and innovation leaders across our customer base, creating new opportunities across Ventures, CLS, and Essentials. These engagements led to portfolio company introductions, technology evaluations, commercial agreements, strategic account expansion, and valuable insight into how customers are approaching AI, automation, and supply chain transformation."
+    },
+    {
+      "blockId": "SRC-083",
+      "sourceOrder": 83,
+      "intendedWebsiteSection": "Customer Access & Commercial Impact",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "The Executive AI Scaling Forum in February convened leaders from NVIDIA, PepsiCo, IKEA, DHL, DSV, GXO, ID Logistics, NFI, Glossier, Barrett Distribution, FulfillmentIQ, and SVT Robotics to discuss how organizations are scaling AI across warehouse and supply chain operations. A consistent theme emerged: while many organizations have proven AI in pilot environments, the next challenge is deploying those solutions consistently across facilities. Success depends less on new AI capabilities and more on high-quality data, clearly defined operational problems, and repeatable implementation processes. The full discussion summary can be found here. "
+    },
+    {
+      "blockId": "SRC-084",
+      "sourceOrder": 84,
+      "intendedWebsiteSection": "Customer Access & Commercial Impact",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "\"Based on these discussions, I realized we’re trying to start too big. I need to rethink my entire AI strategy.\" - Frank Kantner, Chief Supply Chain Officer, IKEA "
+    },
+    {
+      "blockId": "SRC-085",
+      "sourceOrder": 85,
+      "intendedWebsiteSection": "Customer Access & Commercial Impact",
+      "presentationType": "source_placeholder",
+      "status": "approval_required",
+      "exactSourceText": "In May, Ventures hosted the PrologisNext Innovators Summit in Charleston, SC alongside CLS and Essentials, bringing together senior supply chain & innovation leaders from customer organizations for conversations around the operational challenges and new technologies shaping the future of supply chain. The Summit convened leaders from Ashley Furniture, Averitt, Barrett Distribution, DHL Supply Chain, DSV, GEODIS, Glossier, ID Logistics, NFI, NVIDIA, PepsiCo, Ryder, WESCO, along with FulfillmentIQ, Terminal, Unit AI, and FreightWaves. The mix of operators, technology leaders, innovators, and portfolio company founders created an environment where customers could compare approaches and build relationships with peers facing similar challenges. Click here to read the PrologisNext Innovator’s Summit Summary. "
+    },
+    {
+      "blockId": "SRC-086",
+      "sourceOrder": 86,
+      "intendedWebsiteSection": "Customer Access & Commercial Impact",
+      "presentationType": "source_label",
+      "status": "ready",
+      "exactSourceText": "Key Summit insights: "
+    },
+    {
+      "blockId": "SRC-087",
+      "sourceOrder": 87,
+      "intendedWebsiteSection": "Customer Access & Commercial Impact",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\tAutomation investments are becoming more disciplined. Customers are increasingly evaluating automation based on throughput, reliability, and financial return rather than technical capabilities. Operators also emphasized the need to involve operations teams earlier in technology evaluations to improve implementation success. "
+    },
+    {
+      "blockId": "SRC-088",
+      "sourceOrder": 88,
+      "intendedWebsiteSection": "Customer Access & Commercial Impact",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\tThe first 90 days after opening a facility represent one of the highest operational risk periods. Customers consistently cited the gap between planning assumptions and operational reality as a leading cause of launch delays. Many see simulation and pre-launch testing as opportunities to identify issues before operations begin and accelerate stabilization. "
+    },
+    {
+      "blockId": "SRC-089",
+      "sourceOrder": 89,
+      "intendedWebsiteSection": "Customer Access & Commercial Impact",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\tRetail compliance and chargebacks are becoming a growing source of operational cost. Customers described spending significant time and resources resolving compliance disputes with retailers, increasing interest in technologies such as computer vision and automated documentation to improve shipment accuracy and reduce chargebacks."
+    },
+    {
+      "blockId": "SRC-090",
+      "sourceOrder": 90,
+      "intendedWebsiteSection": "Customer Access & Commercial Impact",
+      "presentationType": "source_label",
+      "status": "ready",
+      "exactSourceText": "Customer engagement resulting from the Summit in H1:"
+    },
+    {
+      "blockId": "SRC-091",
+      "sourceOrder": 91,
+      "intendedWebsiteSection": "Customer Access & Commercial Impact",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\tNVIDIA: PrologisNext expanded NVIDIA's view of Prologis from a real estate provider to a strategic AI and innovation partner. Following the Summit, NVIDIA proposed to CEO Jensen Huang and leadership that Prologis become its primary partner for building an edge and cloud platform to enable agentic supply chain operations, while also collaborating with Terminal on an industry blueprint for AI-enabled yard management and inviting Ashley Furniture's CTO to speak at NVIDIA GTC Europe."
+    },
+    {
+      "blockId": "SRC-092",
+      "sourceOrder": 92,
+      "intendedWebsiteSection": "Customer Access & Commercial Impact",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\tID Logistics: Relationships strengthened through the Summit led to discussions between ID Logistics, Unit AI, and select customers around reverse logistics. Those conversations expanded to include LEGO, bringing Prologis into discussions around up to two build-to-suit opportunities totaling 600K- 1M square feet in TX and CA"
+    },
+    {
+      "blockId": "SRC-093",
+      "sourceOrder": 93,
+      "intendedWebsiteSection": "Customer Access & Commercial Impact",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\tDHL: Relationships established through PrologisNext have evolved into recurring technology strategy discussions with DHL’s CIO and ops leadership. Earlier engagement introduced SVT Robotics, which DHL this year announced expansion across its global warehouse network of 100+ sites, enabling robotics integrations to be up to 12 times faster. The Summit also introduced DHL to Gideon, leading to a 70-unit LOI for autonomous forklifts. "
+    },
+    {
+      "blockId": "SRC-094",
+      "sourceOrder": 94,
+      "intendedWebsiteSection": "Customer Access & Commercial Impact",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\tDSV: Engagement through PrologisNext helped strengthen the broader customer relationship, culminating in DSV signing an MSA and KAA with Prologis Essentials, enabling Essentials to participate in future RFPs."
+    },
+    {
+      "blockId": "SRC-095",
+      "sourceOrder": 95,
+      "intendedWebsiteSection": "Customer Access & Commercial Impact",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\tBarrett Distribution: Relationships strengthened at the Summit led Barrett to sign a commercial agreement with Unit AI, with deployment planned across 25 U.S. warehouses beginning in 2027, an early signal of customer demand for returns automation."
+    },
+    {
+      "blockId": "SRC-096",
+      "sourceOrder": 96,
+      "intendedWebsiteSection": "Customer Access & Commercial Impact",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\tNFI: Summit discussions expanded into infrastructure planning, with NFI bringing Prologis Essentials into multiple infrastructure conversations, including two used racking deals."
+    },
+    {
+      "blockId": "SRC-097",
+      "sourceOrder": 97,
+      "intendedWebsiteSection": "Customer Access & Commercial Impact",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\tRyder: Prologis Ventures and Essentials connected Ryder with two qualified customer leads from the Ventures startup network, expanding engagement beyond traditional customer relationships."
+    },
+    {
+      "blockId": "SRC-098",
+      "sourceOrder": 98,
+      "intendedWebsiteSection": "Customer Access & Commercial Impact",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\tAshley Furniture: Relationships established through the Summit continue to deepen, with Marv Cunningham planning a visit to Ashley Furniture's headquarters this fall to discuss automation and AI opportunities with the CTO. "
+    },
+    {
+      "blockId": "SRC-099",
+      "sourceOrder": 99,
+      "intendedWebsiteSection": "Customer Access & Commercial Impact",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "These customer discussions also informed broader industry research. Most recently, Ventures worked with Prologis Research and Silicon Valley Bank to produce the SVB x Prologis Ventures Physical AI and the Future of Robotics Report, extending many of the themes heard throughout the first half of the year to a broader survey of PrologisNext executives. Their anonymous contributions on AI adoption, barriers to scaling automation, and unmet technology needs, complement SVB's analysis of venture funding and broader market trends. The findings provide insight into enterprise technology investment priorities and innovation roadmaps. Key takeaways are summarized below, and the full summary of executive responses can be found here. "
+    },
+    {
+      "blockId": "SRC-100",
+      "sourceOrder": 100,
+      "intendedWebsiteSection": "Customer Access & Commercial Impact",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\tWarehouse operators are investing in AI where it saves time today. The most common use cases were reporting and analytics, document automation, and labor planning, while more advanced applications remain in the evaluation stage. "
+    },
+    {
+      "blockId": "SRC-101",
+      "sourceOrder": 101,
+      "intendedWebsiteSection": "Customer Access & Commercial Impact",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\tCustomers are becoming more confident in AI and automation, but they expect measurable results. Nearly two-thirds of respondents said they are more optimistic than they were a year ago, citing improvements in safety, throughput, and labor productivity. "
+    },
+    {
+      "blockId": "SRC-102",
+      "sourceOrder": 102,
+      "intendedWebsiteSection": "Customer Access & Commercial Impact",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\tCustomers continue to see significant room to expand automation. Even among large operators, a median of only 40% of warehouse facilities have deployed automation, indicating substantial opportunity as solutions become easier to implement across diverse operations. "
+    },
+    {
+      "blockId": "SRC-103",
+      "sourceOrder": 103,
+      "intendedWebsiteSection": "Business Building & Incubation",
+      "presentationType": "top_level_heading",
+      "status": "ready",
+      "exactSourceText": "Business Building & Incubation"
+    },
+    {
+      "blockId": "SRC-104",
+      "sourceOrder": 104,
+      "intendedWebsiteSection": "Business Building & Incubation",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "Building upon past incubation success, Prologis Ventures is creating an incubation engine that supports the creation of new businesses that strengthen the Prologis platform and generate new revenue. The investment in Fulfillment IQ established CrossDock Studios, our incubation studio that combines Prologis' deep understanding of customer challenges with Fulfillment IQ's product development capabilities to rapidly build and commercialize new businesses. "
+    },
+    {
+      "blockId": "SRC-105",
+      "sourceOrder": 105,
+      "intendedWebsiteSection": "Business Building & Incubation",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "Every initiative follows a structured path through evaluating customer pain points, discovery, rapid prototyping, design partner validation, and iteration. Depending on the opportunity, products may become standalone venture-backed companies, future Prologis Ventures investments, Operations Essentials offerings, or consulting solutions that support both companies. Below are the three incubations currently in progress: "
+    },
+    {
+      "blockId": "SRC-106",
+      "sourceOrder": 106,
+      "intendedWebsiteSection": "Business Building & Incubation",
+      "presentationType": "subsection_heading",
+      "status": "ready",
+      "exactSourceText": "Workbench"
+    },
+    {
+      "blockId": "SRC-107",
+      "sourceOrder": 107,
+      "intendedWebsiteSection": "Business Building & Incubation",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "Warehouse design remains a manual process that requires months of engineering analysis across facility layouts, labor planning, automation design, and financial modeling before a customer can make an investment decision. Workbench will dramatically accelerate that process by bringing warehouse design, simulation, and AI into a single platform. The initial release of Workbench is designed to help 3PL customers convert their customers' warehouse requirements into optimized facility designs in hours instead of months. NFI has signed as the first paying design partner with a $200k annual commitment, while GXO, DHL, Geodis, and Yusen are in discussions. Phase One is scheduled for delivery in October 2026. "
+    },
+    {
+      "blockId": "SRC-108",
+      "sourceOrder": 108,
+      "intendedWebsiteSection": "Business Building & Incubation",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "But the larger opportunity for Workbench is far more significant. Workbench will become a true digital twin and simulation engine for warehouse operations. Developed alongside NVIDIA on the Omniverse platform, Prologis will be able to simulate automation strategies, warehouse layouts, labor models, throughput, and network decisions before making physical investments. As more customer and operational data is incorporated into the platform, Workbench will become the operating system for warehouse operations. Prologis can help a customer model their entire network, compare investment scenarios, and simulate operational performance before spending a dollar on infrastructure or automation. This positions Prologis as a trusted partner in helping customers make critical decisions, creating a significant new software and advisory revenue opportunity while increasing pull-through across Operations Essentials and more."
+    },
+    {
+      "blockId": "EMB-003",
+      "sourceOrder": 109,
+      "intendedWebsiteSection": "Business Building & Incubation",
+      "presentationType": "embedded_graphic",
+      "status": "approval_required",
+      "exactSourceText": "Source-supplied embedded graphic: Workbench product visual (image3.png), anchored to this paragraph.",
+      "note": "Graphic has no DOCX alternative text; a faithful accessible description requires approval."
+    },
+    {
+      "blockId": "SRC-110",
+      "sourceOrder": 110,
+      "intendedWebsiteSection": "Business Building & Incubation",
+      "presentationType": "subsection_heading",
+      "status": "ready",
+      "exactSourceText": "WareSight"
+    },
+    {
+      "blockId": "SRC-111",
+      "sourceOrder": 111,
+      "intendedWebsiteSection": "Business Building & Incubation",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "Every customer facility assessment and Operating Essentials product recommendation depends on the experience of the ESM conducting the walkthrough. WareSight transforms that experience into an AI-powered operational assessment. As an ESM walks a facility with a customer, the platform records the conversation, creates a voice-enabled assessment in real time, analyzes operational observations, and recommends solutions across Operations Essentials offerings. WareSight can operate even in low-connectivity environments, allowing recommendations to be generated during the customer visit. Live customer pilots are expected to begin this fall. "
+    },
+    {
+      "blockId": "SRC-112",
+      "sourceOrder": 112,
+      "intendedWebsiteSection": "Business Building & Incubation",
+      "presentationType": "subsection_heading",
+      "status": "ready",
+      "exactSourceText": "Zynque"
+    },
+    {
+      "blockId": "SRC-113",
+      "sourceOrder": 113,
+      "intendedWebsiteSection": "Business Building & Incubation",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "Zynque demonstrates how CrossDock Studios is able to incubate and create venture backable stand-alone businesses. Zynque is a logistics-native integration and orchestration platform designed to connect warehouse management systems, transportation systems, robotics, ERP platforms, and other warehouse technologies through a common integration layer built specifically for logistics environments. Prologis Ventures is working with FIQ to spin Zynque out of the business, taking the company to market to raise a first tranche of venture capital from both institutional and strategic investors. "
+    },
+    {
+      "blockId": "SRC-114",
+      "sourceOrder": 114,
+      "intendedWebsiteSection": "Scaling & Commercializing Innovation",
+      "presentationType": "top_level_heading",
+      "status": "ready",
+      "exactSourceText": "Scaling & Commercializing Innovation"
+    },
+    {
+      "blockId": "SRC-115",
+      "sourceOrder": 115,
+      "intendedWebsiteSection": "Scaling & Commercializing Innovation",
+      "presentationType": "subsection_heading",
+      "status": "ready",
+      "exactSourceText": "Building a Repeatable Innovation Capability"
+    },
+    {
+      "blockId": "SRC-116",
+      "sourceOrder": 116,
+      "intendedWebsiteSection": "Scaling & Commercializing Innovation",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "Prologis Ventures partnered with Operational Excellence to launch the Innovation Accelerator at the January Global Town Hall/ The Innovation Accelerator was created to help Prologis identify and develop opportunities that drive new revenue, improve operational efficiency, solve customer pain points, and strengthen the business. By providing a structured process for evaluating and advancing ideas, the program helps teams focus resources on the highest-impact opportunities and accelerate successful initiatives toward implementation. "
+    },
+    {
+      "blockId": "SRC-117",
+      "sourceOrder": 117,
+      "intendedWebsiteSection": "Scaling & Commercializing Innovation",
+      "presentationType": "subsection_heading",
+      "status": "ready",
+      "exactSourceText": "Self-Service Resources"
+    },
+    {
+      "blockId": "SRC-118",
+      "sourceOrder": 118,
+      "intendedWebsiteSection": "Scaling & Commercializing Innovation",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "‏The team developed a library of self-service resources that all employees can access at will. Resources include Innovation GPTs, project templates, pilot planning guides, business case frameworks, and structured workflows that support teams from idea through execution while improving visibility into related work across the enterprise. "
+    },
+    {
+      "blockId": "SRC-119",
+      "sourceOrder": 119,
+      "intendedWebsiteSection": "Scaling & Commercializing Innovation",
+      "presentationType": "subsection_heading",
+      "status": "ready",
+      "exactSourceText": "Supporting Enterprise AI"
+    },
+    {
+      "blockId": "SRC-120",
+      "sourceOrder": 120,
+      "intendedWebsiteSection": "Scaling & Commercializing Innovation",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "The Innovation Accelerator is supporting the wider enterprise AI initiative by providing a common process for developing AI use cases before implementation. Teams can use the Accelerator self-service resources and GPTs to define business problems, document expected outcomes, identify stakeholders, and evaluate implementation approaches using a shared framework before projects advance through enterprise AI governance."
+    },
+    {
+      "blockId": "SRC-121",
+      "sourceOrder": 121,
+      "intendedWebsiteSection": "Scaling & Commercializing Innovation",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "Elevating High Impact Initiatives "
+    },
+    {
+      "blockId": "SRC-122",
+      "sourceOrder": 122,
+      "intendedWebsiteSection": "Scaling & Commercializing Innovation",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "The launch also included formalizing the Global Innovation Collective, 15+ VP-level leaders from the across the business to create a forum for sharing innovation initiatives across the company, connecting teams working on similar challenges, and coordinating expertise to help employees move high-potential ideas into execution. "
+    },
+    {
+      "blockId": "SRC-123",
+      "sourceOrder": 123,
+      "intendedWebsiteSection": "Scaling & Commercializing Innovation",
+      "presentationType": "source_placeholder",
+      "status": "approval_required",
+      "exactSourceText": "‏Learn more about the Innovation GPTs and project progress to date here."
+    },
+    {
+      "blockId": "SRC-124",
+      "sourceOrder": 124,
+      "intendedWebsiteSection": "Appendix",
+      "presentationType": "top_level_heading",
+      "status": "ready",
+      "exactSourceText": "Appendix"
+    },
+    {
+      "blockId": "SRC-125",
+      "sourceOrder": 125,
+      "intendedWebsiteSection": "Appendix",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\tWalden Investment Article: https://www.dcvelocity.com/material-handling/robotics/walden-robotics-launches-humanoid-robots-for-manufacturing-and-logistics"
+    },
+    {
+      "blockId": "SRC-126",
+      "sourceOrder": 126,
+      "intendedWebsiteSection": "Appendix",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\tPLDV Invests in TMV WSJ Article: https://www.wsj.com/logistics-report/venture-fund-launches-200-million-bet-on-u-s-maritime-revival-640f94a4 "
+    },
+    {
+      "blockId": "SRC-127",
+      "sourceOrder": 127,
+      "intendedWebsiteSection": "Appendix",
+      "presentationType": "bullet",
+      "status": "ready",
+      "exactSourceText": "\t•\tSVB x Prologis Ventures Physical AI and the Future of Robotics Report: https://www.svb.com/trends-insights/reports/physical-ai-robotics/"
+    },
+    {
+      "blockId": "SRC-128",
+      "sourceOrder": 128,
+      "intendedWebsiteSection": "Appendix",
+      "presentationType": "paragraph",
+      "status": "ready",
+      "exactSourceText": "\t•"
+    }
+  ]
+}

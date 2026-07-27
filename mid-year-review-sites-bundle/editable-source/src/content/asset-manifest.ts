@@ -1,0 +1,1 @@
+export const assetManifest = [{ id: 'ASSET-001', type: 'document', localPath: '/Users/willodonnell/Downloads/PLD_Brandguidelines_Aug2024_Final.pdf', alt: 'Prologis Brand Guidelines', sourceId: 'SRC-03-BRAND-GUIDE', approvalStatus: 'APPROVED' }] as const
