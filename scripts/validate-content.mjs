@@ -17,6 +17,8 @@ const failures = [
   ...['#top', 'Back to top', 'DashboardMetrics', 'Exact visible copy', 'report-card-grid', 'customer-reach'].filter((value) => !reportComponent.includes(value)).map((value) => `Missing required report behavior: ${value}`),
   ...(app.includes('executiveSummary') ? ['App must render the locked final specification, not the superseded summary content'] : []),
   ...['SRC-001--SRC-033', 'Visible Executive Summary copy must match the canonical DOCX ledger exactly.'].filter((value) => !sourceMap.includes(value)).map((value) => `Missing source map assertion: ${value}`),
+  ...['innovation-accelerator/index.html'].filter(() => !readFileSync(new URL('../public/innovation-accelerator/index.html', import.meta.url), 'utf8').includes('The Innovation Accelerator')).map((value) => `Missing report-owned toolkit page: ${value}`),
+  ...(!reportComponent.includes("innovationAcceleratorUrl = '/innovation-accelerator/index.html'") ? ['Toolkit CTA must open the embedded Innovation Accelerator HTML page'] : []),
 ]
 
 if (failures.length) {
