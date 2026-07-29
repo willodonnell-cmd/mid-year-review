@@ -54,9 +54,9 @@
   background: var(--innovation-accent);
   content: '';
 }
-.accelerating-innovation__intro h1 { max-width: 800px; margin: 25px 0 26px; font-size: var(--report-chapter-title); }
-.accelerating-innovation__intro > p:last-child { max-width: 820px; margin-bottom: 0; font-family: Georgia, 'Times New Roman', serif; font-size: clamp(18px, 1.52vw, 22px); letter-spacing: -.015em; line-height: 1.54; }
-.accelerating-innovation__guided-tour { display: inline-block; margin-left: 9px; color: var(--innovation-ink); border-bottom: 1px solid var(--innovation-accent); font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: 700; letter-spacing: .02em; line-height: 1.4; text-decoration: none; white-space: nowrap; }
+.accelerating-innovation__intro h1 { max-width: 900px; margin: 0 0 26px; font-size: var(--report-chapter-title); }
+.accelerating-innovation__intro > p:last-child { max-width: 900px; margin-bottom: 0; font-family: Georgia, 'Times New Roman', serif; font-size: clamp(18px, 1.52vw, 22px); letter-spacing: -.015em; line-height: 1.54; }
+.accelerating-innovation__guided-tour { display: inline; margin-left: 9px; color: var(--innovation-ink); border-bottom: 1px solid var(--innovation-accent); font-family: Georgia, 'Times New Roman', serif; font-size: clamp(18px, 1.52vw, 22px); font-weight: 400; letter-spacing: -.015em; line-height: 1.54; text-decoration: none; }
 .accelerating-innovation__guided-tour:hover, .accelerating-innovation__guided-tour:focus-visible { color: #497400; outline: 2px solid var(--innovation-accent); outline-offset: 3px; }
 
 .accelerating-innovation__foundation { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; border-top: 1px solid var(--innovation-line); padding-top: clamp(34px, 4vw, 54px); padding-bottom: clamp(42px, 5vw, 68px); }
@@ -64,16 +64,20 @@
 .accelerating-innovation__foundation h2 { margin-bottom: 17px; font-family: Arial, Helvetica, sans-serif; font-size: clamp(21px, 1.85vw, 28px); font-weight: 700; letter-spacing: -.03em; line-height: 1.15; }
 .accelerating-innovation__foundation p { margin-bottom: 0; font-family: Georgia, 'Times New Roman', serif; font-size: clamp(16px, 1.22vw, 18px); letter-spacing: -.01em; line-height: 1.52; }
 
-.accelerating-innovation__framework { border-top: 1px solid var(--innovation-line); padding: clamp(44px, 6vw, 76px) 0; }
-.accelerating-innovation__section-heading { padding-bottom: 31px; }
-.accelerating-innovation__section-heading > p { margin-bottom: 23px; }
-.accelerating-innovation__section-heading h2 { max-width: 780px; margin-bottom: 0; font-size: clamp(37px, 3.7vw, 58px); }
-.accelerating-innovation__framework ol { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); margin-top: 0; margin-bottom: 0; padding-top: 0; padding-bottom: 0; list-style: none; border-top: 1px solid var(--innovation-line); }
-.accelerating-innovation__framework li { min-width: 0; border-right: 1px solid var(--innovation-line); padding: 22px 24px 0 0; }
-.accelerating-innovation__framework li + li { padding-left: 24px; }
-.accelerating-innovation__framework li:last-child { border-right: 0; }
-.accelerating-innovation__framework h3 { margin-bottom: 10px; font-family: Georgia, 'Times New Roman', serif; font-size: clamp(27px, 2.65vw, 39px); font-weight: 400; letter-spacing: -.045em; line-height: 1; }
-.accelerating-innovation__framework p { margin-bottom: 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 1.48; }
+.accelerating-innovation__framework {
+  max-width: 1180px;
+  margin: 0 auto;
+  border-top: 1px solid var(--innovation-line);
+  padding: clamp(34px, 4vw, 54px) clamp(28px, 5vw, 72px) clamp(48px, 6vw, 76px);
+}
+.accelerating-innovation__framework > * { max-width: none; margin: 0; padding: 0; }
+.accelerating-innovation__tool-board-reference { position: relative; overflow: hidden; width: 100%; aspect-ratio: 1.94 / 1; background: var(--innovation-paper); box-shadow: 0 16px 30px rgb(0 63 58 / 16%); }
+.accelerating-innovation__tool-board-reference::before,
+.accelerating-innovation__tool-board-reference::after { position: absolute; z-index: 1; background: var(--innovation-paper); content: ''; }
+.accelerating-innovation__tool-board-reference::before { top: 0; right: 0; left: 0; height: 3px; }
+.accelerating-innovation__tool-board-reference::after { top: 0; right: 0; bottom: 0; width: 3px; }
+.accelerating-innovation__tool-board-reference img { display: block; width: 137.7%; max-width: none; height: auto; mix-blend-mode: multiply; transform: translate(-13.65%, -17.16%); }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; clip-path: inset(50%); }
 
 .accelerating-innovation__examples { padding: clamp(48px, 6.4vw, 82px) 0; color: #fff; background: var(--innovation-dark); }
 .accelerating-innovation__examples .accelerating-innovation__section-heading { color: #fff; }
@@ -108,15 +112,9 @@
   .accelerating-innovation__foundation,
   .accelerating-innovation__example-grid,
   .accelerating-innovation__security-grid { grid-template-columns: 1fr; }
-  .accelerating-innovation__framework ol { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .accelerating-innovation__framework li:nth-child(2) { border-right: 0; }
-  .accelerating-innovation__framework li:nth-child(n + 3) { border-top: 1px solid var(--innovation-line); margin-top: 22px; padding-top: 22px; }
-  .accelerating-innovation__framework li:nth-child(3) { padding-left: 0; }
 }
 
 @media (max-width: 700px) {
-  .accelerating-innovation__framework ol { grid-template-columns: 1fr; }
-  .accelerating-innovation__framework li,
-  .accelerating-innovation__framework li + li { border-right: 0; border-top: 1px solid var(--innovation-line); margin-top: 17px; padding: 18px 0 0; }
-  .accelerating-innovation__framework li:first-child { border-top: 0; margin-top: 0; padding-top: 22px; }
+  .accelerating-innovation__framework { padding-top: 48px; padding-bottom: 54px; }
+  .accelerating-innovation__tool-board-reference { margin-right: calc(-1 * clamp(28px, 5vw, 72px)); margin-left: calc(-1 * clamp(28px, 5vw, 72px)); width: calc(100% + 2 * clamp(28px, 5vw, 72px)); }
 }

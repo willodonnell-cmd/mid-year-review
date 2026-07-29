@@ -1,0 +1,29 @@
+.portfolio-update__opening,
+.supporting-growth__intro,
+.customer-engagement__intro,
+.building-businesses__intro,
+.accelerating-innovation__intro,
+.appendix-page__intro {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding-top: clamp(54px, 7vw, 94px);
+  padding-right: clamp(28px, 5vw, 72px);
+  padding-bottom: clamp(38px, 5vw, 64px);
+  padding-left: clamp(28px, 5vw, 72px);
+}
+
+.portfolio-update__opening h1,
+.supporting-growth__intro h1,
+.customer-engagement__intro h1,
+.building-businesses__intro h1,
+.accelerating-innovation__intro h1,
+.appendix-page__intro h1 {
+  margin: 0;
+  color: #003f3a;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: var(--report-chapter-title);
+  font-weight: 400;
+  letter-spacing: -.045em;
+  line-height: 1.04;
+}
