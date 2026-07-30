@@ -17,7 +17,6 @@
 }
 
 .building-businesses__intro {
-  max-width: 1060px;
   padding-top: clamp(54px, 7vw, 94px);
   padding-bottom: clamp(38px, 5vw, 64px);
 }
@@ -48,6 +47,8 @@
   letter-spacing: -.013em;
   line-height: 1.56;
 }
+
+.building-businesses__intro p { max-width: 900px; }
 
 .building-businesses__intro p:last-child,
 .building-businesses__section p:last-child { margin-bottom: 0; }

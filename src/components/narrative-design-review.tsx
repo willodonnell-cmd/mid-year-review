@@ -29,7 +29,7 @@ export function NarrativeDesignReview({ option }: { option: string }) {
 
 function HeaderReview({ option }: { option: string }) {
   const title = 'Prologis Ventures 2026 Mid-Year Investment Committee Report'
-  const nav = ['Executive Summary', 'Portfolio & Financial Performance', 'Business Unit Acceleration', 'Customer Access & Commercial Impact', 'Business Building & Incubation', 'Scaling & Commercializing Innovation', 'Appendix']
+  const nav = ['Executive Summary', 'Portfolio & Financial Performance', 'Business Unit Acceleration', 'Engaging Prologis Customers', 'Business Building & Incubation', 'Scaling & Commercializing Innovation', 'Appendix']
   const isHeaderB = option === 'header-b' || option === 'header-b-evidence' || option === 'header-b-paper-white' || option === 'header-b-paper-warm' || option === 'header-b-width-760' || option === 'header-b-width-680' || option === 'header-b-width-780' || option === 'header-b-width-840' || option === 'header-b-approved'
   const showPaperComparison = option === 'header-b-paper-white' || option === 'header-b-paper-warm' || option === 'header-b-width-760' || option === 'header-b-width-680' || option === 'header-b-width-780' || option === 'header-b-width-840' || option === 'header-b-approved'
   const showEvidence = option === 'header-b-evidence' || showPaperComparison
