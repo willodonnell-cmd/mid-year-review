@@ -32,10 +32,27 @@ export function ChapterControls({ activePath }: { activePath: string }) {
   const previous = activeIndex > 0 ? chapterFlow[activeIndex - 1] : undefined
   const next = activeIndex >= 0 && activeIndex < chapterFlow.length - 1 ? chapterFlow[activeIndex + 1] : undefined
 
+  const ArrowIcon = ({ direction }: { direction: 'previous' | 'next' }) => <svg aria-hidden="true" viewBox="0 0 24 24">
+    {direction === 'previous'
+      ? <path d="M15.5 5 8.5 12l7 7M9 12h10" />
+      : <path d="m8.5 5 7 7-7 7M15 12H5" />}
+  </svg>
+
   return <nav className="chapter-controls" aria-label="Chapter navigation">
-    <ReportLink href="/" aria-current={activePath === '/' ? 'page' : undefined}>Executive Overview</ReportLink>
-    {previous ? <ReportLink href={previous.path}>Previous chapter</ReportLink> : <span aria-disabled="true">Previous chapter</span>}
-    {next ? <ReportLink href={next.path}>Next chapter</ReportLink> : <span aria-disabled="true">Next chapter</span>}
+    <div className="chapter-progress" aria-label={`Chapter ${activeIndex + 1} of ${chapterFlow.length}`}>
+      <span>Chapter {activeIndex + 1} of {chapterFlow.length}</span>
+      <i aria-hidden="true">
+        {chapterFlow.map((chapter, index) => <b className={index <= activeIndex ? 'is-complete' : undefined} key={chapter.path} />)}
+      </i>
+    </div>
+    <div className="chapter-controls__arrows">
+      {previous
+        ? <ReportLink className="chapter-control-arrow" href={previous.path} aria-label={`Previous chapter: ${previous.label}`} title={`Previous chapter: ${previous.label}`}><ArrowIcon direction="previous" /></ReportLink>
+        : <span className="chapter-control-arrow" aria-disabled="true"><ArrowIcon direction="previous" /></span>}
+      {next
+        ? <ReportLink className="chapter-control-arrow" href={next.path} aria-label={`Next chapter: ${next.label}`} title={`Next chapter: ${next.label}`}><ArrowIcon direction="next" /></ReportLink>
+        : <span className="chapter-control-arrow" aria-disabled="true"><ArrowIcon direction="next" /></span>}
+    </div>
   </nav>
 }
 
