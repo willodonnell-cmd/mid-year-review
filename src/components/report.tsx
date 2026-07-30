@@ -374,6 +374,7 @@ export function DrivingCustomerEngagement() {
               event.currentTarget.classList.add('is-unavailable')
             }
           }} />
+          <span>{name}</span>
         </div>)}
       </div>
     </section>
