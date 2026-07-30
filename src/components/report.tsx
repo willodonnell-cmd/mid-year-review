@@ -372,6 +372,7 @@ export function DrivingCustomerEngagement() {
               event.currentTarget.src = nextSource
             } else {
               event.currentTarget.classList.add('is-unavailable')
+              event.currentTarget.parentElement?.classList.add('is-unavailable')
             }
           }} />
           <span>{name}</span>

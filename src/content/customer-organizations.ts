@@ -1,6 +1,6 @@
 export const customerOrganizations = [
   { name: 'NVIDIA', sources: ['https://commons.wikimedia.org/wiki/Special:FilePath/NVIDIA%20logo.svg', 'https://cdn.simpleicons.org/nvidia/76B900'] },
-  { name: 'PepsiCo', sources: ['https://digitalassets.pepsico.com/transform/7c417867-1251-4602-8b69-1ea452a03bbe/Pepsico-logo-footer?q=90&w=720', 'https://commons.wikimedia.org/wiki/Special:FilePath/Pepsico%20logo%20%282%29.svg', 'https://www.google.com/s2/favicons?domain=pepsico.com&sz=256'] },
+  { name: 'PepsiCo', sources: ['https://commons.wikimedia.org/wiki/Special:FilePath/Pepsico%20logo.svg', 'https://commons.wikimedia.org/wiki/Special:FilePath/Pepsico%20logo%20%282%29.svg'] },
   { name: 'DHL', sources: ['https://commons.wikimedia.org/wiki/Special:FilePath/DHL%20Logo.svg', 'https://cdn.simpleicons.org/dhl/D40511'] },
   { name: 'Barrett Distribution Centers', sources: ['https://logo.clearbit.com/barrettdistribution.com?size=512', 'https://www.google.com/s2/favicons?domain=barrettdistribution.com&sz=256'] },
   { name: 'DSV', sources: ['https://commons.wikimedia.org/wiki/Special:FilePath/DSV%20Logo.svg', 'https://www.google.com/s2/favicons?domain=dsv.com&sz=128'] },
@@ -8,7 +8,7 @@ export const customerOrganizations = [
   { name: 'Glossier', sources: ['https://commons.wikimedia.org/wiki/Special:FilePath/Glossier%20logo%20%282026%29.png'] },
   { name: 'ID Logistics', sources: ['https://images.seeklogo.com/logo-png/50/1/id-logistics-logo-png_seeklogo-502829.png', 'https://www.google.com/s2/favicons?domain=id-logistics.com&sz=128'] },
   { name: 'IKEA', sources: ['https://cdn.simpleicons.org/ikea/0058A3', 'https://www.google.com/s2/favicons?domain=ikea.com&sz=128'] },
-  { name: 'NFI', sources: ['https://cdn.freebiesupply.com/logos/large/2x/nfi-industries-logo-png-transparent.png', 'https://www.google.com/s2/favicons?domain=nfiindustries.com&sz=128'] },
+  { name: 'NFI', sources: ['https://www.globenewswire.com/newsroom/attachmentng/76f6c110-49f0-48af-b7b7-c00864ccf46b', 'https://cdn.freebiesupply.com/logos/large/2x/nfi-industries-logo-png-transparent.png'] },
   { name: 'Ashley Furniture', sources: ['https://commons.wikimedia.org/wiki/Special:FilePath/Ashley%20logo%202022.svg', 'https://www.google.com/s2/favicons?domain=ashleyfurniture.com&sz=128'] },
   { name: 'Averitt', sources: ['https://www.averitt.com/hs-fs/hubfs/Averitt_logo_250_PNG.png?name=Averitt_logo_250_PNG.png&width=250', 'https://www.google.com/s2/favicons?domain=averitt.com&sz=128'] },
   { name: 'Ryder', sources: ['/ryder-logo.png'] },
