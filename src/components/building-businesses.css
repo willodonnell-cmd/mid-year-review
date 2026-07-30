@@ -1,0 +1,109 @@
+.building-businesses {
+  --business-ink: #003f3a;
+  --business-paper: #fbfaf6;
+  --business-line: #cbd5d0;
+  --business-accent: #b9d842;
+  background: var(--business-paper);
+  color: var(--business-ink);
+}
+
+.building-businesses__intro,
+.building-businesses__section,
+.building-businesses__footer {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding-left: clamp(28px, 5vw, 72px);
+  padding-right: clamp(28px, 5vw, 72px);
+}
+
+.building-businesses__intro {
+  padding-top: clamp(54px, 7vw, 94px);
+  padding-bottom: clamp(38px, 5vw, 64px);
+}
+
+.building-businesses h1,
+.building-businesses h2 {
+  margin: 0;
+  color: var(--business-ink);
+  font-family: Georgia, 'Times New Roman', serif;
+  font-weight: 400;
+  letter-spacing: -.045em;
+  line-height: 1.04;
+}
+
+.building-businesses h1 { font-size: var(--report-chapter-title); }
+
+.building-businesses__intro > p:first-of-type {
+  margin-top: 28px;
+}
+
+.building-businesses__intro p,
+.building-businesses__section p {
+  max-width: 760px;
+  margin: 0 0 22px;
+  color: var(--business-ink);
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(17px, 1.42vw, 20px);
+  letter-spacing: -.013em;
+  line-height: 1.56;
+}
+
+.building-businesses__intro p { max-width: 900px; }
+
+.building-businesses__intro p:last-child,
+.building-businesses__section p:last-child { margin-bottom: 0; }
+
+.building-businesses__section {
+  border-top: 1px solid var(--business-line);
+  padding-top: clamp(38px, 5vw, 65px);
+  padding-bottom: clamp(38px, 5vw, 65px);
+}
+
+.building-businesses h2 { font-size: clamp(36px, 3.3vw, 53px); }
+.building-businesses h2::after {
+  display: block;
+  width: 54px;
+  height: 2px;
+  margin-top: 13px;
+  background: var(--business-accent);
+  content: '';
+}
+
+.building-businesses__workbench-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(300px, .77fr);
+  gap: clamp(34px, 6vw, 84px);
+  align-items: start;
+  margin-top: 28px;
+}
+
+.building-businesses__workbench-layout p { max-width: none; }
+.building-businesses__workbench-layout + p { max-width: 920px; margin-top: 28px; }
+
+.building-businesses__animation { margin: 0; }
+.building-businesses__animation > div {
+  display: grid;
+  min-height: 290px;
+  place-content: center;
+  border: 1px solid var(--business-ink);
+  background: var(--business-ink);
+  color: #fff;
+  padding: 28px;
+  text-align: center;
+}
+.building-businesses__animation strong {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+.building-businesses__animation span { margin-top: 10px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 1.4; }
+.building-businesses__animation figcaption { margin-top: 9px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: 700; letter-spacing: .04em; }
+
+.building-businesses__footer { width: 100%; max-width: none; box-sizing: border-box; border-top: 1px solid var(--business-line); margin: 0; padding: 0; }
+
+@media (max-width: 760px) {
+  .building-businesses__workbench-layout { grid-template-columns: 1fr; }
+  .building-businesses__animation > div { min-height: 230px; }
+}

@@ -3,11 +3,11 @@ export type Metric = { value: string; label?: string; format?: 'metric' | 'text'
 export type MetricGroup = { title: string; metrics: Metric[] }
 export const reportManifest = { navigation: [
   { path: '/', id: 'executive-summary', label: 'Executive Summary' },
-  { path: 'https://pldv-portfolio-dashboard-jul27.prologis.chatgpt.site/', id: 'pldv-portfolio-returns', label: 'PLDV Portfolio Returns' },
-  { path: '/portfolio', id: 'key-portfolio-updates', label: 'Key Portfolio Updates' },
-  { path: '/business-unit-acceleration', id: 'business-unit-acceleration', label: 'Business Unit Acceleration' },
-  { path: '/customer-impact', id: 'customer-access-commercial-impact', label: 'Customer Access & Commercial Impact' },
-  { path: '/business-building', id: 'business-building-incubation', label: 'Business Building & Incubation' },
-  { path: '/scaling-innovation', id: 'scaling-commercializing-innovation', label: 'Scaling & Commercializing Innovation' },
+  { path: '/portfolio-performance', id: 'pldv-portfolio-returns', label: 'Portfolio Performance' },
+  { path: '/portfolio', id: 'key-portfolio-updates', label: 'Portfolio Update' },
+  { path: '/business-unit-acceleration', id: 'business-unit-acceleration', label: 'Accelerating Prologis Growth' },
+  { path: '/customer-impact', id: 'customer-access-commercial-impact', label: 'Engaging Prologis Customers' },
+  { path: '/business-building', id: 'business-building-incubation', label: 'Building New Businesses' },
+  { path: '/scaling-innovation', id: 'scaling-commercializing-innovation', label: 'Accelerating Innovation' },
   { path: '/appendix', id: 'appendix', label: 'Appendix' },
 ] as NavigationItem[] }

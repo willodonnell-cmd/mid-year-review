@@ -1,38 +1,41 @@
+**Comparison target**
+
+- Source visual truth: `/Users/willodonnell/Downloads/User attachment.png`
+- Implementation asset: `/Users/willodonnell/Documents/Mid year review/public/innovation-accelerator-tool-board-reference.png`
+- Implementation screenshot: unavailable
+- Intended state: Accelerating Innovation, tool-board section
+- Source dimensions: 3024 x 1964 px
+- Intended implementation crop: the board art only; outer desktop/browser chrome is clipped by `.accelerating-innovation__tool-board-reference`.
+
 **Findings**
 
-- [P1] Browser-rendered comparison unavailable.
-  Location: Executive Summary desktop and mobile views.
-  Evidence: Source visual target is available at `/Users/willodonnell/.codex/generated_images/019fa3e4-1cd6-7692-9205-8de3a7b2987b/exec-513850fe-98dd-4003-be07-561c6206d62a.png`; no Browser runtime or Playwright installation is available to capture the local implementation.
-  Impact: Typography, card sizing, navigation fit, and responsive reflow cannot be visually compared against the selected concept.
-  Fix: Capture the local page at 1440px and 390px, compare both with the selected source visual, then address any P1/P2 visual differences.
+- [P1] Browser-rendered comparison unavailable
+  Location: `/scaling-innovation`, Accelerating Innovation tool-board section.
+  Evidence: the implementation was built successfully, but this execution environment cannot bind or open a local browser surface for a rendered capture.
+  Impact: the exact crop and final responsive presentation have not been visually compared against the supplied source at a common viewport.
+  Fix: open the local report in a browser, capture the section at the intended desktop viewport, and compare it side-by-side with the source board image.
+
+**Required fidelity surfaces**
+
+- Fonts and typography: preserved inside the supplied board artwork; browser-rendered crop not yet inspected.
+- Spacing and layout rhythm: preserved inside the supplied board artwork; outer crop not yet inspected.
+- Colors and visual tokens: preserved inside the supplied board artwork; outer crop not yet inspected.
+- Image quality and asset fidelity: uses the user-supplied raster reference directly, without recreated CSS illustrations or substitute assets.
+- Copy and content: preserved in the supplied board artwork; semantic image description is present in the page markup.
 
 **Open Questions**
 
-- None. The user explicitly approved the removal of `2 Idle/Stealth` and the merged CrossDock Studios / Workbench, Waresight, Zynque highlight.
+- None. The supplied image is the visual source of truth.
 
 **Implementation Checklist**
 
-1. Capture desktop and mobile screenshots in the user's chosen browser.
-2. Compare the reference and implementation at matched viewports.
-3. Verify all seven navigation labels, the full-width Strategic Value card, and mobile card stacking.
+1. Capture `/scaling-innovation` at the target desktop viewport.
+2. Compare the rendered board crop with the source visual and adjust only the crop if needed.
+3. Re-run this QA with a browser-rendered screenshot.
 
-**Follow-up Polish**
+**Comparison history**
 
-- Confirm the selected concept's shadow depth and card spacing after visual capture.
-
-## Evidence
-
-- Source visual truth: `/Users/willodonnell/.codex/generated_images/019fa3e4-1cd6-7692-9205-8de3a7b2987b/exec-513850fe-98dd-4003-be07-561c6206d62a.png`
-- Implementation screenshot: unavailable
-- Intended viewports: desktop 1440px; mobile 390px
-- State: Executive Summary default state
-- Density normalization: blocked; no implementation image was captured
-- Full-view comparison: blocked
-- Focused region comparison: blocked
-- Fonts and typography: implementation specifies a system sans hierarchy; visual comparison blocked
-- Spacing and layout rhythm: implementation specifies a two-column board with full-width Strategic Value and Major Highlights cards; visual comparison blocked
-- Colors and visual tokens: implementation uses the selected visual's white, deep-teal, muted-teal, and mint system; visual comparison blocked
-- Image quality and asset fidelity: no raster assets are used by the selected dashboard concept
-- Copy and content: source-fidelity validation passes for 31 rendered source blocks after the user-approved omission
+- Initial implementation: replaced the code-drawn approximation with the supplied board artwork.
+- Rendered comparison: blocked before first visual capture.
 
 final result: blocked
