@@ -150,10 +150,6 @@ export function SupportingGrowth() {
       <h1>Accelerating Prologis Growth</h1>
     </header>
 
-    <GrowthReadingSection title="Essentials" fullWidth>
-      {supportingGrowthContent.operatingEssentials.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
-    </GrowthReadingSection>
-
     <GrowthReadingSection title="Development">
       <div className="supporting-growth__development-layout">
         <div>{supportingGrowthContent.development.slice(0, 2).map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</div>
@@ -163,6 +159,10 @@ export function SupportingGrowth() {
         </figure>
       </div>
       <p>{supportingGrowthContent.development[2]}</p>
+    </GrowthReadingSection>
+
+    <GrowthReadingSection title="Essentials" fullWidth>
+      {supportingGrowthContent.operatingEssentials.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
     </GrowthReadingSection>
 
     <GrowthReadingSection title="Data Centers" fullWidth>
@@ -212,6 +212,7 @@ export function BuildingNewBusinesses() {
 
     <section className="building-businesses__section" aria-labelledby="workbench-title">
       <h2 id="workbench-title">Workbench</h2>
+      <p className="building-businesses__product-description">An AI-powered warehouse simulation platform that models layouts, labor, automation, throughput, and cost.</p>
       <div className="building-businesses__workbench-layout">
         <div>
           {buildingNewBusinessesContent.workbench.slice(0, 2).map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
@@ -225,11 +226,13 @@ export function BuildingNewBusinesses() {
 
     <section className="building-businesses__section" aria-labelledby="waresight-title">
       <h2 id="waresight-title">WareSight</h2>
+      <p className="building-businesses__product-description">An AI-powered facility assessment platform that captures walkthroughs and recommends relevant Customer solutions.</p>
       {buildingNewBusinessesContent.wareSight.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
     </section>
 
     <section className="building-businesses__section" aria-labelledby="zynque-title">
       <h2 id="zynque-title">Zynque</h2>
+      <p className="building-businesses__product-description">An integration and orchestration platform connecting warehouse systems, robotics, ERP, and transportation technology.</p>
       {buildingNewBusinessesContent.zynque.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
     </section>
 
@@ -335,6 +338,14 @@ const summitOutcomes = [
   ['Barrett Distribution', 'Summit relationships led Barrett to sign a commercial agreement with Unit AI, with deployment planned across 25 U.S. warehouses beginning in 2027—an early signal of customer demand for returns automation.'],
 ] as const
 
+const summitOutcomeHeadlines: Record<(typeof summitOutcomes)[number][0], string> = {
+  NVIDIA: 'Strategic AI platform proposal',
+  'ID Logistics': 'Up to two build-to-suit opportunities totaling 600K–1M square feet',
+  DHL: '70-unit Gideon LOI and SVT Robotics expansion across 100+ sites',
+  'Additional follow-up': 'Active Essentials, infrastructure, automation, and AI discussions',
+  'Barrett Distribution': 'Commercial agreement covering 25 U.S. warehouses',
+}
+
 export function DrivingCustomerEngagement() {
   return <main className="customer-engagement">
     <header className="customer-engagement__intro">
@@ -353,17 +364,16 @@ export function DrivingCustomerEngagement() {
       <h2 id="organizations-title">Sample Organizations Engaged Through PrologisNext YTD</h2>
       <div className="customer-engagement__logo-garden">
         {customerOrganizations.map(({ name, sources }) => <div key={name} className="customer-engagement__logo">
-          <img src={sources[0]} data-fallbacks={sources.slice(1).join('|')} alt={`${name} logo`} onLoad={(event) => event.currentTarget.parentElement?.classList.add('has-logo')} onError={(event) => {
+          <img src={sources[0]} data-fallbacks={sources.slice(1).join('|')} alt={`${name} logo`} referrerPolicy="no-referrer" onError={(event) => {
             const fallbacks = event.currentTarget.dataset.fallbacks?.split('|').filter(Boolean) ?? []
             const nextSource = fallbacks.shift()
             if (nextSource) {
               event.currentTarget.dataset.fallbacks = fallbacks.join('|')
               event.currentTarget.src = nextSource
             } else {
-              event.currentTarget.style.display = 'none'
+              event.currentTarget.classList.add('is-unavailable')
             }
           }} />
-          <span>{name}</span>
         </div>)}
       </div>
     </section>
@@ -390,13 +400,41 @@ export function DrivingCustomerEngagement() {
       </section>
 
       <section className="customer-engagement__insights" aria-labelledby="insights-title">
-        <h2 id="insights-title">Key Summit Insights</h2>
-        {summitInsights.map(([title, copy]) => <article key={title}><h3>{title}</h3><p>{copy}</p></article>)}
+        <div className="customer-engagement__insights-inner">
+          <p className="customer-engagement__insights-kicker">Innovators Summit · Customer working sessions</p>
+          <h2 id="insights-title">From shared pain points to practical solutions</h2>
+          <p className="customer-engagement__insights-lead">During customer brainstorming sessions, participants focused on three recurring operational pain points and worked together to shape practical solution directions.</p>
+          <div className="customer-engagement__insights-key" aria-hidden="true">
+            <span>Customer pain point</span>
+            <span>Direction explored together</span>
+          </div>
+          <div className="customer-engagement__insights-grid">
+            {summitInsights.map(([title, copy]) => <article key={title}>
+              <h3>{title}</h3>
+              <p>{copy}</p>
+            </article>)}
+          </div>
+        </div>
       </section>
 
       <section className="customer-engagement__outcomes" aria-labelledby="outcomes-title">
-        <h2 id="outcomes-title">Customer Engagement Resulting from the Summit</h2>
-        {summitOutcomes.map(([name, copy]) => <article key={name}><h3>{name}</h3><p>{copy}</p></article>)}
+        <div className="customer-engagement__outcomes-inner">
+          <h2 id="outcomes-title">Customer Engagement Resulting from PrologisNext</h2>
+          <p className="customer-engagement__outcomes-lead">Relationships developed through PrologisNext are creating strategic partnerships, commercial adoption, and real-estate opportunities.</p>
+          <div className="customer-engagement__outcomes-key" aria-hidden="true">
+            <span>Organization</span>
+            <span>Engagement and result</span>
+          </div>
+          <div className="customer-engagement__outcomes-list">
+            {summitOutcomes.map(([name, copy]) => <article key={name}>
+              <h3>{name === 'Additional follow-up' ? 'DSV · NFI · Ashley Furniture' : name}</h3>
+              <div>
+                <strong>{summitOutcomeHeadlines[name]}</strong>
+                <p>{copy}</p>
+              </div>
+            </article>)}
+          </div>
+        </div>
       </section>
     </div>
 
