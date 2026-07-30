@@ -17,8 +17,8 @@
 }
 
 .supporting-growth__intro {
-  padding-top: clamp(34px, 4vw, 54px);
-  padding-bottom: clamp(26px, 3vw, 40px);
+  max-width: 1440px;
+  padding: clamp(54px, 6vw, 86px) clamp(32px, 6vw, 88px) clamp(42px, 4vw, 62px);
 }
 
 .supporting-growth__eyebrow {
@@ -57,6 +57,21 @@
   font-size: var(--report-chapter-title);
 }
 
+.supporting-growth__thesis {
+  max-width: 850px;
+  border-left: 3px solid var(--growth-accent);
+  margin: clamp(30px, 4vw, 46px) 0 0;
+  padding: 3px 0 3px clamp(20px, 2.5vw, 30px);
+}
+.supporting-growth__thesis p {
+  margin: 0;
+  color: var(--growth-ink);
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(19.8px, 2.025vw, 27.9px);
+  font-style: italic;
+  letter-spacing: -.025em;
+  line-height: 1.28;
+}
 .supporting-growth__section {
   border-top: 1px solid var(--growth-line);
   padding-top: clamp(38px, 5vw, 65px);
@@ -64,7 +79,17 @@
 }
 
 .supporting-growth h2 { font-size: clamp(36px, 3.3vw, 53px); }
-.supporting-growth__section-body { max-width: 960px; margin-top: 28px; }
+.supporting-growth__section-lead {
+  max-width: 900px;
+  margin: 28px 0 0;
+  color: var(--growth-ink);
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(19px, 1.65vw, 23px);
+  font-weight: 700;
+  letter-spacing: -.018em;
+  line-height: 1.42;
+}
+.supporting-growth__section-body { max-width: 960px; margin-top: 26px; }
 .supporting-growth__section p {
   max-width: 760px;
   margin: 0 0 22px;

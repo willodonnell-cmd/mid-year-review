@@ -117,6 +117,12 @@ export function PortfolioPerformance() {
 }
 
 const supportingGrowthContent = {
+  framing: {
+    development: 'At the earliest point in the value chain, Development can become a more intelligent decision system—using AI to assess sites, reduce uncertainty, and direct capital toward the highest-value opportunities.',
+    essentials: 'The opportunity in Essentials is to turn a deeper understanding of customer operations into better decisions and better outcomes—connecting the warehouse, its systems, and its operating constraints to the solutions that help customers perform.',
+    dataCenters: 'Data centers are not only real estate; they are the infrastructure that produces the intelligence the physical economy will increasingly run on. The work here begins to explore how Prologis can help bring that capacity to market—and apply it through the customer and operating network already inside its buildings.',
+    energyAndSustainability: 'Power, materials, and circular infrastructure are the practical conditions that determine whether this opportunity can scale. This work gives Prologis more of the capabilities required to bring intelligent, resilient facilities online.',
+  },
   operatingEssentials: [
     'The FulfillmentIQ investment gives Operating Essentials immediate access to supply-chain consulting, product development, implementation, and incubation capabilities that would otherwise take years to build internally. This allows Prologis to engage customers earlier in warehouse design, automation, digital transformation, and operating-strategy decisions—creating new pathways for real estate, Essentials products, and consulting revenue.',
     'During the first half of the year, Prologis Ventures introduced Essentials to Albertsons, leading to discussions with CLD around a four-site cold chain build-to-suit opportunity, automation, yard operations, energy resilience, and network optimization. Albertsons expects to invest ~$4B in material handling and automation across 22 distribution centers over the next five years, creating opportunities that span real estate, Operating Essentials, Energy, and future technology solutions.',
@@ -137,9 +143,10 @@ const supportingGrowthContent = {
   ],
 } as const
 
-function GrowthReadingSection({ title, children, fullWidth = false }: { title: string; children: React.ReactNode; fullWidth?: boolean }) {
+function GrowthReadingSection({ title, lead, children, fullWidth = false }: { title: string; lead?: string; children: React.ReactNode; fullWidth?: boolean }) {
   return <section className={`supporting-growth__section${fullWidth ? ' supporting-growth__section--full-width' : ''}`} aria-labelledby={sectionId(title)}>
     <h2 id={sectionId(title)}>{title}</h2>
+    {lead && <p className="supporting-growth__section-lead">{lead}</p>}
     <div className="supporting-growth__section-body">{children}</div>
   </section>
 }
@@ -148,9 +155,12 @@ export function SupportingGrowth() {
   return <main className="supporting-growth">
     <header className="supporting-growth__intro">
       <h1>Accelerating Prologis Growth</h1>
+      <blockquote className="supporting-growth__thesis">
+        <p>We are becoming infrastructure for the intelligent economy, supply on one side, demand on the other, with real estate as the entry ticket rather than the prize.</p>
+      </blockquote>
     </header>
 
-    <GrowthReadingSection title="Development">
+    <GrowthReadingSection title="Development" lead={supportingGrowthContent.framing.development}>
       <div className="supporting-growth__development-layout">
         <div>{supportingGrowthContent.development.slice(0, 2).map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</div>
         <figure className="supporting-growth__anori-animation">
@@ -161,15 +171,15 @@ export function SupportingGrowth() {
       <p>{supportingGrowthContent.development[2]}</p>
     </GrowthReadingSection>
 
-    <GrowthReadingSection title="Essentials" fullWidth>
+    <GrowthReadingSection title="Essentials" lead={supportingGrowthContent.framing.essentials} fullWidth>
       {supportingGrowthContent.operatingEssentials.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
     </GrowthReadingSection>
 
-    <GrowthReadingSection title="Data Centers" fullWidth>
+    <GrowthReadingSection title="Data Centers" lead={supportingGrowthContent.framing.dataCenters} fullWidth>
       {supportingGrowthContent.dataCenters.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
     </GrowthReadingSection>
 
-    <GrowthReadingSection title="Energy & Sustainability" fullWidth>
+    <GrowthReadingSection title="Energy & Sustainability" lead={supportingGrowthContent.framing.energyAndSustainability} fullWidth>
       <figure className="supporting-growth__paebbl">
         <img src="/paebbl-facility.png" alt="Paebbl low-carbon concrete facility" />
         <figcaption>Paebbl</figcaption>
@@ -188,13 +198,14 @@ const buildingNewBusinessesContent = {
     'Three businesses have now been launched through CrossDock Studios: Workbench, WareSight, and Zynque.',
   ],
   workbench: [
-    'Warehouse design can require months of analysis across facility layout, labor, automation, and financial modeling. Workbench brings these capabilities into a single AI-enabled simulation platform, allowing 3PLs to convert customer requirements into optimized warehouse designs in hours rather than months. Warehouse design is the initial use case; the larger opportunity is to make Workbench the simulation and intelligence layer through which Prologis and its customers design, evaluate, recommend, and ultimately optimize warehouse operations.',
-    'NFI has signed as the first paying design partner with a $200K annual commitment. GXO, DHL, GEODIS, and Yusen are finalizing design agreements, and Phase 1 is scheduled for delivery in October 2026.',
-    'Developed alongside NVIDIA on the Omniverse platform, Workbench is intended to support simulation of automation strategies, layouts, labor models, throughput, and network decisions before physical investments are made.',
+    'Workbench compresses warehouse design from months of manual spreadsheet work into hours. It brings process, labor, automation, throughput, space, cost, and service into a single model, letting 3PLs test designs and tradeoffs before committing capital or customer promises. This is a live, paid customer problem today.',
+    'The commercial proof is early but concrete. NFI has signed as the first paying design partner at $200K annually, with GXO, DHL, GEODIS, and Yusen finalizing design agreements. Phase 1 delivers in October 2026. Design partners fund the build as it develops, generating revenue and, more importantly, structured operational data across many customers\' facilities.',
+    'The opportunity is larger than design. Workbench is the entry point to a continuously learning operational-intelligence layer that connects the systems warehouses already rely on—WMS, YMS, ERP, computer vision, inventory, and labor data—into a shared operating model. Rather than replacing those systems, it allows previously siloed data to flow together, turning fragmented information into insights, decisions, and actions that improve the facility and, over time, the broader supply-chain network.',
+    'NVIDIA frames this as the next enterprise-software platform: a market opportunity it sizes at more than $150 billion by 2030. NVIDIA provides the AI factory stack; Prologis brings the physical network and operational context that enable the system to learn. Every facility we design is a facility we are positioned to help operate, and every facility we operate feeds the data that makes the model better. The NVIDIA team has presented this opportunity to Jensen Huang, and a joint working session with Prologis is scheduled for the week of August 17 to advance the partnership.',
   ],
   wareSight: [
-    'Every customer facility assessment and Essentials recommendation depends on the experience of the Essentials Solutions Manager (ESM) conducting the walkthrough. WareSight turns that process into an AI-powered operational assessment. As an ESM walks a facility with a customer, the platform records the conversation, structures observations in real time, and recommends relevant solutions across Prologis’ Essentials offerings.',
-    'WareSight is designed to operate in low-connectivity environments, allowing assessments and recommendations to be completed during the customer visit. By making Prologis’ operating expertise more consistent and scalable, WareSight can improve recommendation quality, identify more relevant products for each customer, and expand sales opportunities for Essentials.',
+    'During a warehouse walk-through, field teams naturally see the issues they are already experienced to recognize. WareSight puts the structured questions, practical know-how, and pattern recognition of the most experienced supply-chain practitioners in the hands of every person on the floor. It captures observations by voice while context is live and turns them into client-ready findings with clear priorities, owners, and next steps.',
+    'By applying the same framework across visits, sites, and teams, WareSight can create a clearer view of recurring constraints and emerging customer needs. The immediate value is a more consistent audit and follow-through; over time, that context can help teams engage specialists at the right time and make customer conversations more relevant.',
   ],
   zynque: [
     'Zynque demonstrates CrossDock Studios’ ability to create standalone technology businesses from logistics-specific customer needs.',
@@ -212,25 +223,35 @@ export function BuildingNewBusinesses() {
 
     <section className="building-businesses__section" aria-labelledby="workbench-title">
       <h2 id="workbench-title">Workbench</h2>
-      <p className="building-businesses__product-description">An AI-powered warehouse simulation platform that models layouts, labor, automation, throughput, and cost.</p>
+      <p className="building-businesses__product-description">An AI-powered warehouse design platform and the entry point to a continuously learning operating system for the warehouse.</p>
       <div className="building-businesses__workbench-layout">
         <div>
           {buildingNewBusinessesContent.workbench.slice(0, 2).map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
         </div>
         <figure className="building-businesses__animation">
-          <div><strong>Workbench animation</strong><span>Animation placeholder</span></div>
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="metadata"
+            onLoadedMetadata={(event) => { event.currentTarget.playbackRate = 1.5 }}
+          >
+            <source src="/videos/Workbench_warehouse3D_sim.mp4" type="video/mp4" />
+          </video>
           <figcaption>Workbench</figcaption>
         </figure>
       </div>
+      {buildingNewBusinessesContent.workbench.slice(2).map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
     </section>
 
-    <section className="building-businesses__section" aria-labelledby="waresight-title">
+    <section className="building-businesses__section building-businesses__section--wide-copy" aria-labelledby="waresight-title">
       <h2 id="waresight-title">WareSight</h2>
-      <p className="building-businesses__product-description">An AI-powered facility assessment platform that captures walkthroughs and recommends relevant Customer solutions.</p>
+      <p className="building-businesses__product-description">An AI-powered facility-assessment platform that turns walkthroughs into structured findings and recommended customer solutions.</p>
       {buildingNewBusinessesContent.wareSight.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
     </section>
 
-    <section className="building-businesses__section" aria-labelledby="zynque-title">
+    <section className="building-businesses__section building-businesses__section--wide-copy" aria-labelledby="zynque-title">
       <h2 id="zynque-title">Zynque</h2>
       <p className="building-businesses__product-description">An integration and orchestration platform connecting warehouse systems, robotics, ERP, and transportation technology.</p>
       {buildingNewBusinessesContent.zynque.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
@@ -361,7 +382,7 @@ export function DrivingCustomerEngagement() {
     </header>
 
     <section className="customer-engagement__organizations" aria-labelledby="organizations-title">
-      <h2 id="organizations-title">Sample Organizations Engaged Through PrologisNext YTD</h2>
+      <h2 id="organizations-title">Sample Organizations Engaged Through PrologisNext This Year</h2>
       <div className="customer-engagement__logo-garden">
         {customerOrganizations.map(({ name, sources }) => <div key={name} className="customer-engagement__logo">
           <img src={sources[0]} data-fallbacks={sources.slice(1).join('|')} alt={`${name} logo`} referrerPolicy="no-referrer" onError={(event) => {

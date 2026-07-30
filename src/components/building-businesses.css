@@ -75,6 +75,7 @@
   font-weight: 700;
   line-height: 1.42;
 }
+.building-businesses__section--wide-copy > p:not(.building-businesses__product-description) { max-width: 920px; }
 
 .building-businesses__workbench-layout {
   display: grid;
@@ -86,32 +87,23 @@
 
 .building-businesses__product-description + p { margin-top: 26px; }
 .building-businesses__workbench-layout p { max-width: none; }
-.building-businesses__workbench-layout + p { max-width: 920px; margin-top: 28px; }
+.building-businesses__workbench-layout ~ p { max-width: 920px; }
+.building-businesses__workbench-layout + p { margin-top: 28px; }
 
 .building-businesses__animation { margin: 0; }
-.building-businesses__animation > div {
-  display: grid;
+.building-businesses__animation video {
+  display: block;
+  width: 100%;
   min-height: 290px;
-  place-content: center;
+  object-fit: cover;
   border: 1px solid var(--business-ink);
   background: var(--business-ink);
-  color: #fff;
-  padding: 28px;
-  text-align: center;
 }
-.building-businesses__animation strong {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 17px;
-  font-weight: 700;
-  letter-spacing: .12em;
-  text-transform: uppercase;
-}
-.building-businesses__animation span { margin-top: 10px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 1.4; }
 .building-businesses__animation figcaption { margin-top: 9px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: 700; letter-spacing: .04em; }
 
 .building-businesses__footer { width: 100%; max-width: none; box-sizing: border-box; border-top: 1px solid var(--business-line); margin: 0; padding: 0; }
 
 @media (max-width: 760px) {
   .building-businesses__workbench-layout { grid-template-columns: 1fr; }
-  .building-businesses__animation > div { min-height: 230px; }
+  .building-businesses__animation video { min-height: 230px; }
 }
